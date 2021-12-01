@@ -1,0 +1,56 @@
+
+#container{
+    text-align: center;
+margin-top: 150px;
+}
+button{
+background-color: white;
+border-radius: 2vw;
+width: 5vw;
+outline: none;
+border:1px solid rgb(64, 192, 231);
+cursor: pointer;
+}
+#time{
+text-align: center;
+color: aliceblue;
+padding: 50px;
+}
+h1{
+text-align: center;
+color: aliceblue;
+}
+#controller{
+text-align: center;
+}
+body{
+position: relative;
+border: 1px solid rgb(17, 17, 17);
+background-color: rgb(17, 17, 17);
+}
+#banner1{
+position: absolute;
+left: 222px;
+top: 107px;
+}
+#banner2{
+position: absolute;
+left: 472px;
+top: 50px;
+}
+
+#banner4{
+position: absolute;
+right: 203px;
+top: 0;
+}
+#banner5{
+position: absolute;
+right: 334px;
+top: 50px;   
+}
+#banner3{
+position: absolute;
+right: 442px;
+top: 120px;   
+}

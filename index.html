@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>SalesKen Music Player | Aman Tiwari</title>
+</head>
+<body>
+
+    
+    <div id="container"> 
+        
+        <!--All the bars will be present inside this div-->
+    </div>
+    
+    <div id="controller">
+        <!--Pause-Play Button is displayed here-->
+        <button id="volume_up" onclick='mute_sound()'><i class='fa fa-volume-up' style='font-size:24px;color:rgb(64, 192, 231)'></i></button>
+       <button id="start-pause"><i  class="fa fa-play" style="font-size:42px;color:rgb(64, 192, 231)"></i></button>
+       <button><i class="fa fa-forward" style="font-size:24px;color:rgb(64, 192, 231)"></i></button>
+    </div>
+    <div id="time">
+        <!--Time lapsed is displayed here-->
+    </div>
+    <!--All the tags are below-->
+    <canvas id="banner1" width="200" height="100"
+    >
+    </canvas>
+    <canvas id="banner2" width="200" height="150"
+    >
+    </canvas>
+    <canvas id="banner3" width="200" height="100"
+    >
+    </canvas>
+    <canvas id="banner4" width="200" height="200"
+    >
+    </canvas>
+    <canvas id="banner5" width="200" height="150"
+    >
+    </canvas>
+    <audio src="old town road.mp3" id='audio' muted></audio> <!--audio file-->
+
+    <h1>Music Player</h1>
+    <script src="index.js"></script>
+</body>
+</html>
