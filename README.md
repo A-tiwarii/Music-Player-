@@ -21,7 +21,8 @@ Music Player with simple user interface and functionality to take time laps with
 
 
 ## Demo
-- [click me](https://music-player-s.netlify.app/)
+- [web page](https://music-player-s.netlify.app/)
+- [video explanation ](https://www.loom.com/share/0b3df5e7150d489fb15d59d2e96e42f6)
 
 
 
